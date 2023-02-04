@@ -1,0 +1,14 @@
+---
+Checks: '*,-modernize-use-trailing-return-type,-llvmlibc-restrict-system-libc-headers,-llvmlibc-callee-namespace,-llvmlibc-implementation-in-namespace,-llvm-header-guard,-fuchsia-default-arguments-calls'
+
+WarningsAsErrors: ''
+FormatStyle: 'mozilla'
+HeaderFilterRegex: 'libhello\/.*\.hpp$'
+CheckOptions:
+    - key:      readability-identifier-length.MinimumVariableNameLength
+      value:    2
+    - key:      readability-identifier-length.MinimumLoopCounterNameLength
+      value:    2
+    - key:      readability-identifier-length.MinimumParameterNameLength
+      value:    2
+...

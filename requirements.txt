@@ -1,0 +1,3 @@
+clang-format==15.0.7
+clang-tidy==15.0.2.1
+cmake==3.25.2
